@@ -11,7 +11,7 @@ public class ProductSearchTest  extends BrowserUtil{
 	
 	SoftAssert sa = new SoftAssert();
 	
-	@Test (dataProvider="productSearchTest",dataProviderClass=TestDataUtil.class, groups={"productSearchTest","all","smoke"})
+	//@Test (dataProvider="productSearchTest",dataProviderClass=TestDataUtil.class, groups={"productSearchTest","all","smoke"})
 	public void productSearchTest(String url, String searchString, String productTitle) throws InterruptedException{
 		PageObjectFactory pof = new PageObjectFactory(driver);
 		sa.assertTrue(pof.homePage().accessUrl(url), "Access url");

@@ -20,11 +20,11 @@
 		</classes>
 	</test>
 	
-	<test name="ProductSearchTest">
+	<!-- <test name="ProductSearchTest">
 		<classes>
 			<class name="com.tests.ProductSearchTest"></class>
 		</classes>
-	</test>
+	</test> -->
 
 
 
